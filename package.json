@@ -1,20 +1,36 @@
 {
-    "name": "roblox-studio-icon-theme",
-    "displayName": "Icons Roblox Studio",
+    "name": "roblox-studio-icon-theme-custom",
+    "displayName": "Icons Roblox Studio (Custom)",
     "description": "File icons matching Roblox Studio, with 2 different icon themes: Rojo & Azul and Argon. Everyone deservers to have the best experience possible.",
-    "version": "1.2.1",
-    "publisher": "Enderex",
+    "version": "1.0.6",
+    "publisher": "bmealey2005",
     "engines": {
       "vscode": "^1.60.0"
     },
     "categories": ["Themes"],
     "keywords": ["roblox", "icon","icons", "theme", "icon theme", "lua","luau", "rojo", "azul", "argon", "studio", "roblox studio"],
     "repository": {
-    "type": "git",
-    "url": "https://github.com/EnderexDev/Roblox-Studio-Icons.git"
+      "type": "git",
+      "url": "https://github.com/bmealey2005/Roblox-Studio-Icons.git"
     },
     "icon": "icon.webp",
+    "main": "./extension.js",
+    "activationEvents": [
+        "workspaceContains:roblox/src/**/init.meta.json",
+        "workspaceContains:src/**/init.meta.json",
+        "onCommand:robloxStudioIcons.syncFolderNames"
+    ],
+    "scripts": {
+        "sync-folder-names": "node scripts/sync-folder-names.mjs",
+        "package": "node scripts/sync-folder-names.mjs && npx @vscode/vsce package"
+    },
     "contributes": {
+      "commands": [
+        {
+          "command": "robloxStudioIcons.syncFolderNames",
+          "title": "Roblox Studio Icons: Sync Folder Names"
+        }
+      ],
       "iconThemes": [
         {
           "id": "roblox-studio-rojo-azul",

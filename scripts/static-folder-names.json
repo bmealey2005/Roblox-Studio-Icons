@@ -1,0 +1,40 @@
+{
+  "argon": {
+    "src": "_argon",
+    "Workspace": "_workspace",
+    "ReplicatedFirst": "_replicated_first",
+    "ReplicatedStorage": "_replicated_storage",
+    "StarterPlayer": "_starter_player",
+    "StarterPlayerScripts": "_starter_player_scripts",
+    "StarterPack": "_starter_pack",
+    "StarterGui": "_starter_gui",
+    "StarterCharacterScripts": "_starter_player_scripts",
+    "ServerScriptService": "_server_script_service",
+    "ServerStorage": "_server_storage",
+    "Lighting": "_lighting",
+    "SoundService": "_sound_service",
+    "Shared": "_replicated_storage",
+    "Client": "_starter_player_scripts",
+    "Server": "_server_script_service",
+    "roblox": "_roblox",
+    "backend": "_database"
+  },
+  "rojo-azul": {
+    "sync": "_azul",
+    "src": "_rojo",
+    "Workspace": "_workspace",
+    "ReplicatedFirst": "_replicated_first",
+    "ReplicatedStorage": "_replicated_storage",
+    "StarterPlayer": "_starter_player",
+    "StarterPlayerScripts": "_starter_player_scripts",
+    "StarterPack": "_starter_pack",
+    "StarterGui": "_starter_gui",
+    "StarterCharacterScripts": "_starter_player_scripts",
+    "ServerScriptService": "_server_script_service",
+    "ServerStorage": "_server_storage",
+    "Lighting": "_lighting",
+    "SoundService": "_sound_service",
+    "roblox": "_roblox",
+    "backend": "_database"
+  }
+}

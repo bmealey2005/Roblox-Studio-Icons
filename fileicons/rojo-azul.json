@@ -1,127 +1,208 @@
 {
-    "iconDefinitions": {
-      "_folder": {
-        "iconPath": "./icons/folder.png"
-      },
-      "_server_script": {
-        "iconPath": "./icons/serverscript.png"
-      },
-      "_module_script": {
-        "iconPath": "./icons/modulescript.png"
-      },
-      "_local_script": {
-        "iconPath": "./icons/localscript.png"
-      },
-      "_disabled_script": {
-        "iconPath": "./icons/disabledscript.png"
-      },
-      "_replicated_storage": {
-        "iconPath": "./icons/replicatedstorage.png"
-      },
-      "_replicated_first": {
-        "iconPath": "./icons/replicatedfirst.png"
-      },
-      "_workspace": {
-        "iconPath": "./icons/workspace.png"
-      },
-      "_starter_player": {
-        "iconPath": "./icons/starterplayer.png"
-      },
-      "_starter_player_scripts": {
-        "iconPath": "./icons/starterplayerscripts.png"
-      },
-      "_starter_pack": {
-        "iconPath": "./icons/starterpack.png"
-      },
-      "_starter_gui": {
-        "iconPath": "./icons/startergui.png"
-      },
-      "_server_script_service": {
-        "iconPath": "./icons/serverscriptservice.png"
-      },
-      "_local_file": {
-        "iconPath": "./icons/localfile.png"
-      },
-      "_git": {
-        "iconPath": "./icons/git.png"
-      },
-      "_json": {
-        "iconPath": "./icons/json.png"
-      },
-      "_settings": {
-        "iconPath": "./icons/settings.png"
-      },
-      "_server_storage": {
-        "iconPath": "./icons/serverstorage.png"
-      },
-      "_png": {
-        "iconPath": "./icons/png.png"
-      },
-      "_lighting": {
-        "iconPath": "./icons/lighting.png"
-      },
-      "_players": {
-        "iconPath": "./icons/players.png"
-      },
-      "_sound_service": {
-        "iconPath": "./icons/soundservice.png"
-      },
-      "_lock": {
-        "iconPath": "./icons/lock.png"
-      },
-      "_readme": {
-        "iconPath": "./icons//readme.png"
-      },
-      "_rojo": {
-        "iconPath": "./icons/rojo.png"
-      },
-      "_azul": {
-        "iconPath": "./icons/azul.png"
-      }
+  "iconDefinitions": {
+    "_folder": {
+      "iconPath": "./icons/folder.png"
     },
-    "folder": "_folder",
-    "file": "_local_file",
-    "rootFolderExpanded": "_folder",
-    "rootFolder": "_folder",
-    "fileExtensions": {
-      "client.lua": "_local_script",
-      "client.luau": "_local_script",
-      "server.lua": "_server_script",
-      "server.luau": "_server_script",
-      "lua": "_module_script",
-      "luau": "_module_script",
-      "json": "_json",
-      "toml": "_settings",
-      "lua.disabled": "_disabled_script",
-      "luau.disabled": "_disabled_script",
-      "git": "_git",
-      "gitignore": "_git",
-      "yml": "_settings",
-      "png": "_png",
-      "jpg": "_png",
-      "jpeg": "_png",
-      "lock": "_lock",
-      "md": "_readme",
-      "txt": "_readme"
+    "_server_script": {
+      "iconPath": "./icons/serverscript.png"
     },
-    "fileNames": {
-      "README": "_readme"
+    "_module_script": {
+      "iconPath": "./icons/modulescript.png"
     },
-    "folderNames": {
-      "sync": "_azul",
-      "src": "_rojo",
-      "Workspace": "_workspace",
-      "ReplicatedFirst": "_replicated_first",
-      "ReplicatedStorage": "_replicated_storage",
-      "StarterPlayer": "_starter_player",
-      "StarterPlayerScripts": "_starter_player_scripts",
-      "StarterPack": "_starter_pack",
-      "StarterGui": "_starter_gui",
-      "StarterCharacterScripts": "_starter_player_scripts",
-      "ServerScriptService": "_server_script_service",
-      "ServerStorage": "_server_storage",
-      "Lighting": "_lighting",
-      "SoundService": "_sound_service"
+    "_local_script": {
+      "iconPath": "./icons/localscript.png"
+    },
+    "_disabled_script": {
+      "iconPath": "./icons/disabledscript.png"
+    },
+    "_replicated_storage": {
+      "iconPath": "./icons/replicatedstorage.png"
+    },
+    "_replicated_first": {
+      "iconPath": "./icons/replicatedfirst.png"
+    },
+    "_workspace": {
+      "iconPath": "./icons/workspace.png"
+    },
+    "_starter_player": {
+      "iconPath": "./icons/starterplayer.png"
+    },
+    "_starter_player_scripts": {
+      "iconPath": "./icons/starterplayerscripts.png"
+    },
+    "_starter_pack": {
+      "iconPath": "./icons/starterpack.png"
+    },
+    "_starter_gui": {
+      "iconPath": "./icons/startergui.png"
+    },
+    "_server_script_service": {
+      "iconPath": "./icons/serverscriptservice.png"
+    },
+    "_local_file": {
+      "iconPath": "./icons/localfile.png"
+    },
+    "_git": {
+      "iconPath": "./icons/git.png"
+    },
+    "_json": {
+      "iconPath": "./icons/json.png"
+    },
+    "_settings": {
+      "iconPath": "./icons/settings.png"
+    },
+    "_server_storage": {
+      "iconPath": "./icons/serverstorage.png"
+    },
+    "_png": {
+      "iconPath": "./icons/png.png"
+    },
+    "_lighting": {
+      "iconPath": "./icons/lighting.png"
+    },
+    "_players": {
+      "iconPath": "./icons/players.png"
+    },
+    "_sound_service": {
+      "iconPath": "./icons/soundservice.png"
+    },
+    "_lock": {
+      "iconPath": "./icons/lock.png"
+    },
+    "_readme": {
+      "iconPath": "./icons/readme.png"
+    },
+    "_rojo": {
+      "iconPath": "./icons/rojo.png"
+    },
+    "_azul": {
+      "iconPath": "./icons/azul.png"
+    },
+    "_roblox": {
+      "iconPath": "./icons/roblox.png"
+    },
+    "_database": {
+      "iconPath": "./icons/database.png"
+    },
+    "_bindable_event": {
+      "iconPath": "./icons/BindableEvent.png"
+    },
+    "_remote_event": {
+      "iconPath": "./icons/RemoteEvent.png"
+    },
+    "_remote_function": {
+      "iconPath": "./icons/RemoteFunction.png"
     }
+  },
+  "folder": "_folder",
+  "file": "_local_file",
+  "rootFolderExpanded": "_folder",
+  "rootFolder": "_folder",
+  "fileExtensions": {
+    "client.lua": "_local_script",
+    "client.luau": "_local_script",
+    "server.lua": "_server_script",
+    "server.luau": "_server_script",
+    "lua": "_module_script",
+    "luau": "_module_script",
+    "json": "_json",
+    "toml": "_settings",
+    "lua.disabled": "_disabled_script",
+    "luau.disabled": "_disabled_script",
+    "git": "_git",
+    "gitignore": "_git",
+    "yml": "_settings",
+    "png": "_png",
+    "jpg": "_png",
+    "jpeg": "_png",
+    "lock": "_lock",
+    "md": "_readme",
+    "txt": "_readme"
+  },
+  "fileNames": {
+    "README": "_readme"
+  },
+  "folderNames": {
+    "AddAssetFavorite": "_remote_function",
+    "AddToCart": "_remote_function",
+    "ApplyDescription": "_remote_event",
+    "ApplyPose": "_remote_event",
+    "backend": "_database",
+    "BrowseStores": "_remote_function",
+    "CommandTriggered": "_remote_event",
+    "CreateStore": "_remote_function",
+    "CreateStoreSponsorCampaign": "_remote_function",
+    "DeleteCombo": "_remote_function",
+    "DeletePose": "_remote_function",
+    "DeleteStore": "_remote_function",
+    "DeleteStoreReview": "_remote_function",
+    "FloorPricesUpdated": "_remote_event",
+    "GetAssetBundleId": "_remote_function",
+    "GetAssetBundles": "_remote_function",
+    "GetAssetFavorites": "_remote_function",
+    "GetCart": "_remote_function",
+    "GetDecalSearchData": "_remote_function",
+    "GetFloorPrices": "_remote_function",
+    "GetLeaderboardData": "_remote_function",
+    "GetRecentItems": "_remote_function",
+    "GetSavedCombos": "_remote_function",
+    "GetSavedPoses": "_remote_function",
+    "GetSponsoredStores": "_remote_function",
+    "GetSponsorPool": "_bindable_event",
+    "GetStore": "_remote_function",
+    "GetStoreAnalytics": "_remote_function",
+    "GetStorePerItemAnalytics": "_remote_function",
+    "GetStorePollResults": "_remote_function",
+    "GetStoreRecommendations": "_remote_function",
+    "GetStoreReviews": "_remote_function",
+    "GetStoreSponsorCampaigns": "_remote_function",
+    "GetStoreTopSelling": "_remote_function",
+    "GetStoreTransactions": "_remote_function",
+    "GetUserOutfits": "_remote_function",
+    "GlobalsClientLoaded": "_remote_event",
+    "GlobalsClientReady": "_remote_event",
+    "GlobalsInitialSyncAck": "_remote_event",
+    "GlobalsReplicate": "_remote_event",
+    "GlobalsRequest": "_remote_function",
+    "IncrementStoreWears": "_remote_event",
+    "LeaderboardSync": "_remote_event",
+    "Lighting": "_lighting",
+    "LogStoreImpression": "_bindable_event",
+    "RecordStoreImpression": "_remote_event",
+    "RecordStoreImpressions": "_remote_event",
+    "RecordStoreTransaction": "_bindable_event",
+    "RemoveAssetFavorite": "_remote_function",
+    "RemoveCartItems": "_remote_function",
+    "RemoveFromCart": "_remote_function",
+    "RenamePose": "_remote_function",
+    "ReplicatedFirst": "_replicated_first",
+    "ReplicatedStorage": "_replicated_storage",
+    "ReplicatePose": "_remote_event",
+    "ResolveAnimationPreview": "_remote_function",
+    "ResolveAssetPrices": "_remote_function",
+    "roblox": "_roblox",
+    "SaveCombo": "_remote_function",
+    "SavePose": "_remote_function",
+    "SaveRecentDecal": "_remote_event",
+    "SendColor": "_remote_event",
+    "ServerScriptService": "_server_script_service",
+    "ServerStorage": "_server_storage",
+    "SoundService": "_sound_service",
+    "src": "_rojo",
+    "StarterCharacterScripts": "_starter_player_scripts",
+    "StarterGui": "_starter_gui",
+    "StarterPack": "_starter_pack",
+    "StarterPlayer": "_starter_player",
+    "StarterPlayerScripts": "_starter_player_scripts",
+    "StoreVisitBegan": "_remote_event",
+    "StoreVisitEnded": "_remote_event",
+    "SubmitStorePollVote": "_remote_function",
+    "SubmitStoreReview": "_remote_function",
+    "sync": "_azul",
+    "ToggleStoreFavorite": "_remote_function",
+    "UpdateCombo": "_remote_function",
+    "UpdatePose": "_remote_function",
+    "UpdateStore": "_remote_function",
+    "Workspace": "_workspace"
   }
-  
+}
