@@ -2,3 +2,8 @@
 .git
 .gitignore
 addittions/
+additions/
+temp/
+scratch/
+source-icons/
+*.log

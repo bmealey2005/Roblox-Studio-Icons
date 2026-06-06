@@ -22,7 +22,10 @@
     ],
     "scripts": {
         "sync-folder-names": "node scripts/sync-folder-names.mjs",
-        "package": "node scripts/sync-folder-names.mjs && npx @vscode/vsce package"
+        "validate": "node scripts/validate-extension.mjs",
+        "bump-version": "node scripts/bump-version.mjs",
+        "package": "node scripts/sync-folder-names.mjs && node scripts/validate-extension.mjs && node scripts/bump-version.mjs && npx @vscode/vsce package --allow-missing-repository",
+        "safe-package-install": "node scripts/safe-package-install.mjs"
     },
     "contributes": {
       "commands": [
