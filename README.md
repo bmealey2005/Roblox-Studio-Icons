@@ -19,6 +19,9 @@ So, I decided to create it.
 - Azul
 - Argon
 
+## DEVELOPMENT SAFETY
+
+Before changing, packaging, or installing this extension, read [`AGENTS.md`](AGENTS.md). It documents the required validation and safe install workflow for Cursor.
 
 ## LICENSE
 MIT
